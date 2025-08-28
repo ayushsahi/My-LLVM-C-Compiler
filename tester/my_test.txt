@@ -1,0 +1,46 @@
+Assignment 6 Public Tester
+RUNNING COMMAND: ['/home/ayushsahi/csc488/minicc-internal/tester/../build//src/minicc', '-o', 'output.bc', 'public_tests/conds.c']
+RUNNING COMMAND: ['llvm-dis-15', 'output.bc', '-o', 'output.ll']
+RUNNING COMMAND: ['opt-15', '-O0', '-load', '/home/ayushsahi/csc488/minicc-internal/tester/../build//src/liballoca2reg.so', 'output.bc', '-o', 'output_opt.bc', '-enable-new-pm=0']
+RUNNING COMMAND: ['llvm-dis-15', 'output_opt.bc', '-o', 'output_opt.ll']
+RUNNING COMMAND: ['clang-15', 'output_opt.bc', '/home/ayushsahi/csc488/minicc-internal/tester/../build//minicio/libminicio.a', '-o', 'output_opt']
+STARTING PROGRAM: ['./output_opt']
+EXPECTING: b'0 '
+FOUND: b'0 '
+alloca count: nonopt: 3 opt: 0
+RUNNING COMMAND: ['rm', '-rf', 'output.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt']
+RUNNING COMMAND: ['rm', '-rf', 'output.ll']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.ll']
+RUNNING COMMAND: ['/home/ayushsahi/csc488/minicc-internal/tester/../build//src/minicc', '-o', 'output.bc', 'public_tests/queen.c']
+RUNNING COMMAND: ['llvm-dis-15', 'output.bc', '-o', 'output.ll']
+RUNNING COMMAND: ['opt-15', '-O0', '-load', '/home/ayushsahi/csc488/minicc-internal/tester/../build//src/liballoca2reg.so', 'output.bc', '-o', 'output_opt.bc', '-enable-new-pm=0']
+RUNNING COMMAND: ['llvm-dis-15', 'output_opt.bc', '-o', 'output_opt.ll']
+RUNNING COMMAND: ['clang-15', 'output_opt.bc', '/home/ayushsahi/csc488/minicc-internal/tester/../build//minicio/libminicio.a', '-o', 'output_opt']
+STARTING PROGRAM: ['./output_opt']
+EXPECTING: b'0 2 4 1 3 \n0 3 1 4 2 \n1 3 0 2 4 \n1 4 2 0 3 \n2 0 3 1 4 \n2 4 1 3 0 \n3 0 2 4 1 \n3 1 4 2 0 \n4 1 3 0 2 \n4 2 0 3 1 \n'
+FOUND: b''
+FAILED CASE: -1 mark(s)
+alloca count: nonopt: 13 opt: 0
+RUNNING COMMAND: ['rm', '-rf', 'output.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt']
+RUNNING COMMAND: ['rm', '-rf', 'output.ll']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.ll']
+RUNNING COMMAND: ['/home/ayushsahi/csc488/minicc-internal/tester/../build//src/minicc', '-o', 'output.bc', 'public_tests/hanoi.c']
+RUNNING COMMAND: ['llvm-dis-15', 'output.bc', '-o', 'output.ll']
+RUNNING COMMAND: ['opt-15', '-O0', '-load', '/home/ayushsahi/csc488/minicc-internal/tester/../build//src/liballoca2reg.so', 'output.bc', '-o', 'output_opt.bc', '-enable-new-pm=0']
+RUNNING COMMAND: ['llvm-dis-15', 'output_opt.bc', '-o', 'output_opt.ll']
+RUNNING COMMAND: ['clang-15', 'output_opt.bc', '/home/ayushsahi/csc488/minicc-internal/tester/../build//minicio/libminicio.a', '-o', 'output_opt']
+STARTING PROGRAM: ['./output_opt']
+EXPECTING: b'1 0 2 \n2 0 1 \n1 2 1 \n3 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n4 0 1 \n1 2 1 \n2 2 0 \n1 1 0 \n3 2 1 \n1 0 2 \n2 0 1 \n1 2 1 \n5 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n3 1 0 \n1 2 1 \n2 2 0 \n1 1 0 \n4 1 2 \n1 0 2 \n2 0 1 \n1 2 1 \n3 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n'
+FOUND: b'1 0 2 \n2 0 1 \n1 2 1 \n3 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n4 0 1 \n1 2 1 \n2 2 0 \n1 1 0 \n3 2 1 \n1 0 2 \n2 0 1 \n1 2 1 \n5 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n3 1 0 \n1 2 1 \n2 2 0 \n1 1 0 \n4 1 2 \n1 0 2 \n2 0 1 \n1 2 1 \n3 0 2 \n1 1 0 \n2 1 2 \n1 0 2 \n'
+alloca count: nonopt: 5 opt: 0
+RUNNING COMMAND: ['rm', '-rf', 'output.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.bc']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt']
+RUNNING COMMAND: ['rm', '-rf', 'output.ll']
+RUNNING COMMAND: ['rm', '-rf', 'output_opt.ll']
+Mark for Assignment 6 Public Tester is 5 out of 6
+FAIL

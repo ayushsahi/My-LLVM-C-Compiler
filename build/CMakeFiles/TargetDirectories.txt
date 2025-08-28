@@ -1,0 +1,17 @@
+/home/ayushsahi/csc488/minicc-internal/build/CMakeFiles/rebuild_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/CMakeFiles/acc_gen.dir
+/home/ayushsahi/csc488/minicc-internal/build/CMakeFiles/edit_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/CMakeFiles/omp_gen.dir
+/home/ayushsahi/csc488/minicc-internal/build/CMakeFiles/intrinsics_gen.dir
+/home/ayushsahi/csc488/minicc-internal/build/grammars/CMakeFiles/rebuild_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/grammars/CMakeFiles/edit_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/grammars/CMakeFiles/grammar.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/rebuild_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/edit_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/alloca2reg.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/minicc.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/irgen.dir
+/home/ayushsahi/csc488/minicc-internal/build/src/CMakeFiles/ast.dir
+/home/ayushsahi/csc488/minicc-internal/build/minicio/CMakeFiles/rebuild_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/minicio/CMakeFiles/edit_cache.dir
+/home/ayushsahi/csc488/minicc-internal/build/minicio/CMakeFiles/minicio.dir
