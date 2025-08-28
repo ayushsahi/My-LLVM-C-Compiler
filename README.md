@@ -1,6 +1,6 @@
 # MiniC Compiler
 
-If you want proof that I am talented engineer then viola:
+If you want proof that I am talented engineer then voila:
 
 This compiler is for MiniC, a subset/pseudo-code system of the C programming language taught at the University of Toronto, to the C Programming Language. 
 
