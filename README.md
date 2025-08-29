@@ -1,12 +1,12 @@
 # MiniC Compiler
 
-If you want proof that I am talented engineer then voila:
+If you want proof that I can code (extremely well) then voila:
 
 This compiler is for MiniC, a subset/pseudo-code system of the C programming language taught at the University of Toronto, to the C Programming Language. 
 
 This is a complete working implementation of the entire compilation pipeline, from lexical analysis, syntax tree generation and parsing, etc. 
 
-What sets this implementation apart from basic academic compilers is its production-grade architecture: comprehensive semantic analysis with detailed error reporting, integration with industry-standard LLVM infrastructure for code generation, custom optimization passes that achieve measurable performance improvements, and a robust testing framework. The compiler generates optimized machine code comparable to commercial compilers, implementing sophisticated techniques like memory-to-register promotion and dataflow analysis.
+What sets this implementation apart from basic academic compilers is its production-grade architecture: comprehensive semantic analysis with detailed error reporting, integration with industry-standard LLVM infrastructure for code generation as well as the fact that it uses ANTLR for parsing. Thus it is quite reliable. Further implementation details below
 
 ## Architecture
 
